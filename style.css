@@ -44,11 +44,13 @@
     }
     
     .hero{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:100px 80px;
-    }
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:100px 80px;
+gap:40px;
+flex-wrap:wrap;
+}
     
     .hero-text{
     max-width:500px;
@@ -65,8 +67,10 @@
     }
     
     .hero-image img{
-    width:450px;
-    }
+width:100%;
+max-width:450px;
+height:auto;
+}
     @media (max-width:768px){
 
         .hero{
